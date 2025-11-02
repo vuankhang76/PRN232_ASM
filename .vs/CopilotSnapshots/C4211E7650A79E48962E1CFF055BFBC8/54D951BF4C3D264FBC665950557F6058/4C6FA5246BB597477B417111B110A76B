@@ -1,0 +1,112 @@
+﻿using Microsoft.AspNetCore.Mvc;
+using Services;
+using Services.DTOs;
+
+namespace Controllers.Controllers;
+
+/// <summary>
+/// Exam management controller
+/// </summary>
+[ApiController]
+[Route("api/[controller]")]
+public class ExamsController : ControllerBase
+{
+    private readonly IExamService _examService;
+
+    public ExamsController(IExamService examService)
+    {
+  _examService = examService;
+    }
+
+    /// <summary>
+    /// Get all exams
+    /// </summary>
+    [HttpGet]
+    public async Task<ActionResult<IEnumerable<ExamDto>>> GetAllExams()
+    {
+        var exams = await _examService.GetAllExamsAsync();
+   return Ok(exams);
+    }
+
+    /// <summary>
+/// Get exam by ID
+    /// </summary>
+    [HttpGet("{id}")]
+    public async Task<ActionResult<ExamDto>> GetExamById(int id)
+    {
+  var exam = await _examService.GetExamByIdAsync(id);
+        
+   if (exam == null)
+            return NotFound($"Exam with ID '{id}' not found.");
+
+return Ok(exam);
+    }
+
+    /// <summary>
+    /// Get exams by semester
+/// </summary>
+    [HttpGet("semester/{semesterId}")]
+    public async Task<ActionResult<IEnumerable<ExamDto>>> GetExamsBySemester(int semesterId)
+    {
+        var exams = await _examService.GetExamsBySemesterAsync(semesterId);
+   return Ok(exams);
+    }
+
+    /// <summary>
+    /// Get exams by subject
+    /// </summary>
+    [HttpGet("subject/{subjectId}")]
+    public async Task<ActionResult<IEnumerable<ExamDto>>> GetExamsBySubject(int subjectId)
+    {
+        var exams = await _examService.GetExamsBySubjectAsync(subjectId);
+return Ok(exams);
+    }
+
+    /// <summary>
+    /// Create new exam
+    /// </summary>
+  [HttpPost]
+    public async Task<ActionResult<ExamDto>> CreateExam([FromBody] CreateExamDto createExamDto)
+    {
+        try
+   {
+       var exam = await _examService.CreateExamAsync(createExamDto);
+            return CreatedAtAction(nameof(GetExamById), new { id = exam.ExamId }, exam);
+   }
+   catch (Exception ex)
+    {
+   return BadRequest(ex.Message);
+     }
+    }
+
+    /// <summary>
+ /// Update exam
+    /// </summary>
+    [HttpPut("{id}")]
+ public async Task<ActionResult<ExamDto>> UpdateExam(int id, [FromBody] UpdateExamDto updateExamDto)
+    {
+        try
+   {
+   var exam = await _examService.UpdateExamAsync(id, updateExamDto);
+       return Ok(exam);
+        }
+        catch (InvalidOperationException ex)
+        {
+  return NotFound(ex.Message);
+     }
+    }
+
+    /// <summary>
+    /// Delete exam
+ /// </summary>
+    [HttpDelete("{id}")]
+    public async Task<ActionResult> DeleteExam(int id)
+    {
+  var result = await _examService.DeleteExamAsync(id);
+   
+    if (!result)
+       return NotFound($"Exam with ID '{id}' not found.");
+
+return NoContent();
+    }
+}

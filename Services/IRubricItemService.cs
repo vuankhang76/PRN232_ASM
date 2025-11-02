@@ -1,0 +1,18 @@
+using BusinessObjects;
+
+namespace Services;
+
+/// <summary>
+/// RubricItem service interface for business logic
+/// </summary>
+public interface IRubricItemService
+{
+    Task<IEnumerable<RubricItem>> GetAllRubricItemsAsync();
+    Task<RubricItem?> GetRubricItemByIdAsync(long rubricItemId);
+    Task<IEnumerable<RubricItem>> GetRubricItemsByExamIdAsync(int examId);
+    Task<RubricItem> CreateRubricItemAsync(int examId, string code, string title, decimal maxPoint, 
+        string? keywords = null, int? orderNo = null);
+    Task<RubricItem> UpdateRubricItemAsync(long rubricItemId, string title, decimal maxPoint, 
+   string? keywords = null, int? orderNo = null);
+  Task<bool> DeleteRubricItemAsync(long rubricItemId);
+}

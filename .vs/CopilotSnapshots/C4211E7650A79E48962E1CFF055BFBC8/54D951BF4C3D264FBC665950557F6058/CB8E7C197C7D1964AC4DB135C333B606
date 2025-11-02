@@ -1,0 +1,14 @@
+﻿using Services.DTOs;
+
+namespace Services;
+
+/// <summary>
+/// Submission service interface for business logic
+/// </summary>
+public interface ISubmissionService
+{
+ Task<IEnumerable<SubmissionDto>> GetAllSubmissionsAsync();
+    Task<SubmissionDetailDto?> GetSubmissionByIdAsync(long submissionId);
+    Task<IEnumerable<SubmissionDto>> GetSubmissionsByExamAsync(int examId);
+    Task<IEnumerable<SubmissionDto>> GetSubmissionsByStudentAsync(int studentId);
+}

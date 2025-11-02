@@ -1,0 +1,131 @@
+﻿using BusinessObjects;
+using Repositories;
+using System.Security.Cryptography;
+using System.Text;
+
+namespace Services;
+
+/// <summary>
+/// User service implementation for business logic
+/// </summary>
+public class UserService : IUserService
+{
+private readonly IUnitOfWork _unitOfWork;
+
+  public UserService(IUnitOfWork unitOfWork)
+    {
+     _unitOfWork = unitOfWork;
+    }
+
+    public async Task<IEnumerable<AppUser>> GetAllUsersAsync()
+    {
+        return await _unitOfWork.UserRepository.GetAllUsersWithRolesAsync();
+    }
+
+    public async Task<AppUser?> GetUserByIdAsync(Guid userId)
+    {
+        return await _unitOfWork.UserRepository.GetByIdAsync(userId);
+    }
+
+    public async Task<AppUser?> GetUserByUsernameAsync(string username)
+    {
+     return await _unitOfWork.UserRepository.GetByUsernameAsync(username);
+    }
+
+    public async Task<AppUser?> GetUserWithRolesAsync(Guid userId)
+    {
+        return await _unitOfWork.UserRepository.GetUserWithRolesAsync(userId);
+    }
+
+    public async Task<AppUser> CreateUserAsync(string username, string password, string fullName, string? email = null)
+    {
+        // Validate username doesn't exist
+      if (await _unitOfWork.UserRepository.UsernameExistsAsync(username))
+{
+            throw new InvalidOperationException($"Username '{username}' already exists.");
+        }
+
+    // Hash password
+        var passwordHash = HashPassword(password);
+
+        var user = new AppUser
+        {
+            UserId = Guid.NewGuid(),
+   Username = username,
+   PasswordHash = passwordHash,
+            FullName = fullName,
+     Email = email,
+       IsActive = true,
+     CreatedAt = DateTime.UtcNow
+        };
+
+        await _unitOfWork.UserRepository.AddAsync(user);
+        await _unitOfWork.SaveChangesAsync();
+
+        return user;
+    }
+
+    public async Task<AppUser> UpdateUserAsync(Guid userId, string fullName, string? email, bool isActive)
+    {
+     var user = await _unitOfWork.UserRepository.GetByIdAsync(userId);
+
+        if (user == null)
+         throw new InvalidOperationException($"User with ID '{userId}' not found.");
+
+  user.FullName = fullName;
+        user.Email = email;
+        user.IsActive = isActive;
+
+  _unitOfWork.UserRepository.Update(user);
+ await _unitOfWork.SaveChangesAsync();
+
+        return user;
+    }
+
+  public async Task<bool> DeleteUserAsync(Guid userId)
+    {
+        var user = await _unitOfWork.UserRepository.GetByIdAsync(userId);
+   
+        if (user == null)
+      return false;
+
+        _unitOfWork.UserRepository.Delete(user);
+     return await _unitOfWork.SaveChangesAsync() > 0;
+    }
+
+    public async Task<bool> ChangePasswordAsync(Guid userId, string oldPassword, string newPassword)
+    {
+        var user = await _unitOfWork.UserRepository.GetByIdAsync(userId);
+        
+        if (user == null)
+       return false;
+
+        // Verify old password
+        if (user.PasswordHash == null || !VerifyPassword(oldPassword, user.PasswordHash))
+return false;
+
+        // Hash and update new password
+        user.PasswordHash = HashPassword(newPassword);
+     _unitOfWork.UserRepository.Update(user);
+   
+        return await _unitOfWork.SaveChangesAsync() > 0;
+    }
+
+    public async Task<bool> UsernameExistsAsync(string username)
+    {
+        return await _unitOfWork.UserRepository.UsernameExistsAsync(username);
+    }
+
+    // Helper methods for password hashing
+    private byte[] HashPassword(string password)
+    {
+        using var sha256 = SHA256.Create();
+        return sha256.ComputeHash(Encoding.UTF8.GetBytes(password));
+    }
+
+    private bool VerifyPassword(string password, byte[] hash)
+ {
+     var computedHash = HashPassword(password);
+        return computedHash.SequenceEqual(hash);
+    }
+}

@@ -1,0 +1,64 @@
+﻿using Microsoft.AspNetCore.Mvc;
+using Services;
+using Services.DTOs;
+
+namespace Controllers.Controllers;
+
+/// <summary>
+/// Submission management controller
+/// </summary>
+[ApiController]
+[Route("api/[controller]")]
+public class SubmissionsController : ControllerBase
+{
+    private readonly ISubmissionService _submissionService;
+
+  public SubmissionsController(ISubmissionService submissionService)
+    {
+        _submissionService = submissionService;
+    }
+
+    /// <summary>
+    /// Get all submissions
+    /// </summary>
+    [HttpGet]
+    public async Task<ActionResult<IEnumerable<SubmissionDto>>> GetAllSubmissions()
+    {
+        var submissions = await _submissionService.GetAllSubmissionsAsync();
+      return Ok(submissions);
+    }
+
+    /// <summary>
+    /// Get submission by ID
+    /// </summary>
+    [HttpGet("{id}")]
+    public async Task<ActionResult<SubmissionDetailDto>> GetSubmissionById(long id)
+    {
+  var submission = await _submissionService.GetSubmissionByIdAsync(id);
+        
+        if (submission == null)
+            return NotFound($"Submission with ID '{id}' not found.");
+
+        return Ok(submission);
+    }
+
+    /// <summary>
+    /// Get submissions by exam
+    /// </summary>
+    [HttpGet("exam/{examId}")]
+    public async Task<ActionResult<IEnumerable<SubmissionDto>>> GetSubmissionsByExam(int examId)
+    {
+        var submissions = await _submissionService.GetSubmissionsByExamAsync(examId);
+        return Ok(submissions);
+    }
+
+    /// <summary>
+    /// Get submissions by student
+    /// </summary>
+    [HttpGet("student/{studentId}")]
+    public async Task<ActionResult<IEnumerable<SubmissionDto>>> GetSubmissionsByStudent(int studentId)
+    {
+        var submissions = await _submissionService.GetSubmissionsByStudentAsync(studentId);
+        return Ok(submissions);
+    }
+}

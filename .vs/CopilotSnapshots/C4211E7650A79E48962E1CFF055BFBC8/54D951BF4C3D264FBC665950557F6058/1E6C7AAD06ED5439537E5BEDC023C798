@@ -1,0 +1,17 @@
+﻿using Services.DTOs;
+
+namespace Services;
+
+/// <summary>
+/// Exam service interface for business logic
+/// </summary>
+public interface IExamService
+{
+    Task<IEnumerable<ExamDto>> GetAllExamsAsync();
+    Task<ExamDto?> GetExamByIdAsync(int examId);
+    Task<IEnumerable<ExamDto>> GetExamsBySemesterAsync(int semesterId);
+    Task<IEnumerable<ExamDto>> GetExamsBySubjectAsync(int subjectId);
+    Task<ExamDto> CreateExamAsync(CreateExamDto createExamDto);
+    Task<ExamDto> UpdateExamAsync(int examId, UpdateExamDto updateExamDto);
+    Task<bool> DeleteExamAsync(int examId);
+}

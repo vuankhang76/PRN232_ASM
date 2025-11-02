@@ -1,0 +1,13 @@
+using BusinessObjects;
+
+namespace Services;
+
+/// <summary>
+/// Excel export service interface
+/// </summary>
+public interface IExcelExportService
+{
+    Task<byte[]> ExportExamResultsAsync(int examId);
+    Task<byte[]> ExportViolationsAsync(int examId);
+    Task<byte[]> ExportGradingProgressAsync(int examId);
+}

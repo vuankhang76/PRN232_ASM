@@ -1,0 +1,74 @@
+﻿using BusinessObjects;
+using Microsoft.EntityFrameworkCore;
+
+namespace Repositories;
+
+/// <summary>
+/// ExtractedImage repository implementation
+/// </summary>
+public class ExtractedImageRepository : IExtractedImageRepository
+{
+    private readonly Prn232GradingContext _context;
+
+    public ExtractedImageRepository(Prn232GradingContext context)
+    {
+        _context = context;
+    }
+
+    public async Task<IEnumerable<ExtractedImage>> GetAllAsync()
+    {
+        return await _context.ExtractedImages
+   .Include(i => i.Submission)
+  .ThenInclude(s => s.Student)
+  .Include(i => i.FromFile)
+        .OrderBy(i => i.OrderNo)
+   .ToListAsync();
+    }
+
+ public async Task<ExtractedImage?> GetByIdAsync(long imageId)
+    {
+        return await _context.ExtractedImages
+  .Include(i => i.Submission)
+     .Include(i => i.FromFile)
+     .FirstOrDefaultAsync(i => i.ImageId == imageId);
+    }
+
+public async Task<IEnumerable<ExtractedImage>> GetBySubmissionIdAsync(long submissionId)
+    {
+  return await _context.ExtractedImages
+.Include(i => i.FromFile)
+ .Where(i => i.SubmissionId == submissionId)
+  .OrderBy(i => i.OrderNo)
+  .ToListAsync();
+    }
+
+    public async Task<IEnumerable<ExtractedImage>> GetByIngestFileIdAsync(long ingestFileId)
+    {
+     return await _context.ExtractedImages
+        .Include(i => i.Submission)
+       .ThenInclude(s => s.Student)
+.Where(i => i.FromFileId == ingestFileId)
+      .OrderBy(i => i.OrderNo)
+   .ToListAsync();
+    }
+
+    public async Task AddAsync(ExtractedImage image)
+ {
+        await _context.ExtractedImages.AddAsync(image);
+    }
+
+    public void Update(ExtractedImage image)
+    {
+   _context.ExtractedImages.Update(image);
+    }
+
+    public void Delete(ExtractedImage image)
+{
+  _context.ExtractedImages.Remove(image);
+    }
+
+ public async Task<bool> SaveChangesAsync()
+    {
+   return await _context.SaveChangesAsync() > 0;
+    }
+}

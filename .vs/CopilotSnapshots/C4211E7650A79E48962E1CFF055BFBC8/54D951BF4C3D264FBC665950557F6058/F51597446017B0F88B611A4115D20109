@@ -1,0 +1,100 @@
+﻿using BusinessObjects;
+using Repositories;
+
+namespace Services;
+
+/// <summary>
+/// Exam service implementation for business logic
+/// </summary>
+public class ExamService : IExamService
+{
+    private readonly IUnitOfWork _unitOfWork;
+
+    public ExamService(IUnitOfWork unitOfWork)
+    {
+ _unitOfWork = unitOfWork;
+    }
+
+    public async Task<IEnumerable<Exam>> GetAllExamsAsync()
+    {
+        return await _unitOfWork.ExamRepository.GetAllAsync();
+    }
+
+    public async Task<Exam?> GetExamByIdAsync(int examId)
+    {
+        return await _unitOfWork.ExamRepository.GetByIdAsync(examId);
+}
+
+    public async Task<Exam?> GetExamWithDetailsAsync(int examId)
+    {
+        return await _unitOfWork.ExamRepository.GetExamWithDetailsAsync(examId);
+    }
+
+  public async Task<IEnumerable<Exam>> GetExamsBySemesterAsync(int semesterId)
+    {
+    return await _unitOfWork.ExamRepository.GetExamsBySemesterAsync(semesterId);
+    }
+
+    public async Task<IEnumerable<Exam>> GetExamsBySubjectAsync(int subjectId)
+    {
+        return await _unitOfWork.ExamRepository.GetExamsBySubjectAsync(subjectId);
+    }
+
+    public async Task<Exam?> GetByExamCodeAsync(string examCode)
+    {
+        return await _unitOfWork.ExamRepository.GetByExamCodeAsync(examCode);
+    }
+
+    public async Task<Exam> CreateExamAsync(int subjectId, int semesterId, string examCode, string examName,
+        string? description = null, string? examPaperPath = null, string? markingSheetPath = null)
+    {
+   var exam = new Exam
+        {
+            SubjectId = subjectId,
+            SemesterId = semesterId,
+            ExamCode = examCode,
+            ExamName = examName,
+     Description = description,
+            ExamPaperPath = examPaperPath,
+            MarkingSheetPath = markingSheetPath,
+            CreatedAt = DateTime.UtcNow
+   };
+
+        await _unitOfWork.ExamRepository.AddAsync(exam);
+        await _unitOfWork.SaveChangesAsync();
+
+        // Reload with navigation properties
+        var createdExam = await _unitOfWork.ExamRepository.GetByIdAsync(exam.ExamId);
+        return createdExam!;
+    }
+
+    public async Task<Exam> UpdateExamAsync(int examId, string examName, string? description = null,
+        string? examPaperPath = null, string? markingSheetPath = null)
+    {
+        var exam = await _unitOfWork.ExamRepository.GetByIdAsync(examId);
+
+if (exam == null)
+         throw new InvalidOperationException($"Exam with ID '{examId}' not found.");
+
+  exam.ExamName = examName;
+        exam.Description = description;
+        exam.ExamPaperPath = examPaperPath;
+        exam.MarkingSheetPath = markingSheetPath;
+
+        _unitOfWork.ExamRepository.Update(exam);
+    await _unitOfWork.SaveChangesAsync();
+
+  return exam;
+    }
+
+    public async Task<bool> DeleteExamAsync(int examId)
+    {
+     var exam = await _unitOfWork.ExamRepository.GetByIdAsync(examId);
+
+        if (exam == null)
+  return false;
+
+    _unitOfWork.ExamRepository.Delete(exam);
+        return await _unitOfWork.SaveChangesAsync() > 0;
+    }
+}

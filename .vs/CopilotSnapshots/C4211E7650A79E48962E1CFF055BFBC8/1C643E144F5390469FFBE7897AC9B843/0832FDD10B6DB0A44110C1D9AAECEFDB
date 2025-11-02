@@ -1,0 +1,12 @@
+﻿{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=Khangsuz;uid=sa;pwd=123456;database=PRN232_Grading;TrustServerCertificate=True;Trusted_Connection=True;"
+  },
+  "AllowedHosts": "*"
+} 

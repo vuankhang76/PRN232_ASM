@@ -1,0 +1,18 @@
+﻿using BusinessObjects;
+
+namespace Repositories;
+
+/// <summary>
+/// ExtractedImage repository interface
+/// </summary>
+public interface IExtractedImageRepository
+{
+    Task<IEnumerable<ExtractedImage>> GetAllAsync();
+    Task<ExtractedImage?> GetByIdAsync(long imageId);
+    Task<IEnumerable<ExtractedImage>> GetBySubmissionIdAsync(long submissionId);
+    Task<IEnumerable<ExtractedImage>> GetByIngestFileIdAsync(long ingestFileId);
+    Task AddAsync(ExtractedImage image);
+  void Update(ExtractedImage image);
+    void Delete(ExtractedImage image);
+    Task<bool> SaveChangesAsync();
+}

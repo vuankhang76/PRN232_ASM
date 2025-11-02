@@ -1,0 +1,17 @@
+﻿using Services.DTOs;
+
+namespace Services;
+
+/// <summary>
+/// User service interface for business logic
+/// </summary>
+public interface IUserService
+{
+    Task<IEnumerable<UserDto>> GetAllUsersAsync();
+    Task<UserDto?> GetUserByIdAsync(Guid userId);
+    Task<UserDto?> GetUserByUsernameAsync(string username);
+    Task<UserDto> CreateUserAsync(CreateUserDto createUserDto);
+    Task<UserDto> UpdateUserAsync(Guid userId, UpdateUserDto updateUserDto);
+    Task<bool> DeleteUserAsync(Guid userId);
+    Task<bool> ChangePasswordAsync(Guid userId, string oldPassword, string newPassword);
+}

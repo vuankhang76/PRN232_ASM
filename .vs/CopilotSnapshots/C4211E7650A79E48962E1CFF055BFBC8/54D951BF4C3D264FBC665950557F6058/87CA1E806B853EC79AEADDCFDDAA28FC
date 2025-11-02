@@ -1,0 +1,33 @@
+﻿namespace Services.DTOs;
+
+/// <summary>
+/// DTO for Submission response
+/// </summary>
+public class SubmissionDto
+{
+ public long SubmissionId { get; set; }
+    public string StudentCode { get; set; } = null!;
+    public string StudentName { get; set; } = null!;
+    public string ExamName { get; set; } = null!;
+    public string Status { get; set; } = null!;
+    public decimal? FinalScore { get; set; }
+ public DateTime UploadedAt { get; set; }
+}
+
+/// <summary>
+/// DTO for Submission with full details
+/// </summary>
+public class SubmissionDetailDto
+{
+    public long SubmissionId { get; set; }
+    public string StudentCode { get; set; } = null!;
+    public string StudentName { get; set; } = null!;
+    public string ExamName { get; set; } = null!;
+    public string SubjectName { get; set; } = null!;
+    public string SemesterName { get; set; } = null!;
+    public string Status { get; set; } = null!;
+    public decimal? FinalScore { get; set; }
+    public string? FinalComment { get; set; }
+  public DateTime UploadedAt { get; set; }
+    public int FileCount { get; set; }
+}

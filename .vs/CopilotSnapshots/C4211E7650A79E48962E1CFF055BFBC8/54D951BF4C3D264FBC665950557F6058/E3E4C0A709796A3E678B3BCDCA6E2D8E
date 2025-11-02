@@ -1,0 +1,21 @@
+﻿using BusinessObjects;
+
+namespace Services;
+
+/// <summary>
+/// Exam service interface for business logic
+/// </summary>
+public interface IExamService
+{
+    Task<IEnumerable<Exam>> GetAllExamsAsync();
+    Task<Exam?> GetExamByIdAsync(int examId);
+    Task<Exam?> GetExamWithDetailsAsync(int examId);
+    Task<IEnumerable<Exam>> GetExamsBySemesterAsync(int semesterId);
+    Task<IEnumerable<Exam>> GetExamsBySubjectAsync(int subjectId);
+    Task<Exam?> GetByExamCodeAsync(string examCode);
+    Task<Exam> CreateExamAsync(int subjectId, int semesterId, string examCode, string examName, 
+        string? description = null, string? examPaperPath = null, string? markingSheetPath = null);
+    Task<Exam> UpdateExamAsync(int examId, string examName, string? description = null, 
+        string? examPaperPath = null, string? markingSheetPath = null);
+    Task<bool> DeleteExamAsync(int examId);
+}

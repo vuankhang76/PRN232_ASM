@@ -1,0 +1,106 @@
+﻿using Microsoft.AspNetCore.Mvc;
+using Services;
+using Services.DTOs;
+
+namespace Controllers.Controllers;
+
+/// <summary>
+/// User management controller
+/// </summary>
+[ApiController]
+[Route("api/[controller]")]
+public class UsersController : ControllerBase
+{
+  private readonly IUserService _userService;
+
+    public UsersController(IUserService userService)
+    {
+        _userService = userService;
+    }
+
+    /// <summary>
+    /// Get all users
+    /// </summary>
+    [HttpGet]
+    public async Task<ActionResult<IEnumerable<UserDto>>> GetAllUsers()
+    {
+        var users = await _userService.GetAllUsersAsync();
+   return Ok(users);
+    }
+
+    /// <summary>
+    /// Get user by ID
+ /// </summary>
+    [HttpGet("{id}")]
+ public async Task<ActionResult<UserDto>> GetUserById(Guid id)
+    {
+        var user = await _userService.GetUserByIdAsync(id);
+        
+        if (user == null)
+            return NotFound($"User with ID '{id}' not found.");
+
+        return Ok(user);
+    }
+
+    /// <summary>
+    /// Get user by username
+    /// </summary>
+    [HttpGet("username/{username}")]
+    public async Task<ActionResult<UserDto>> GetUserByUsername(string username)
+    {
+var user = await _userService.GetUserByUsernameAsync(username);
+ 
+        if (user == null)
+   return NotFound($"User with username '{username}' not found.");
+
+        return Ok(user);
+    }
+
+    /// <summary>
+    /// Create new user
+    /// </summary>
+    [HttpPost]
+  public async Task<ActionResult<UserDto>> CreateUser([FromBody] CreateUserDto createUserDto)
+    {
+        try
+     {
+            var user = await _userService.CreateUserAsync(createUserDto);
+       return CreatedAtAction(nameof(GetUserById), new { id = user.UserId }, user);
+        }
+catch (InvalidOperationException ex)
+        {
+     return BadRequest(ex.Message);
+   }
+    }
+
+    /// <summary>
+    /// Update user
+    /// </summary>
+    [HttpPut("{id}")]
+    public async Task<ActionResult<UserDto>> UpdateUser(Guid id, [FromBody] UpdateUserDto updateUserDto)
+    {
+        try
+        {
+        var user = await _userService.UpdateUserAsync(id, updateUserDto);
+        return Ok(user);
+    }
+     catch (InvalidOperationException ex)
+  {
+            return NotFound(ex.Message);
+ }
+    }
+
+    /// <summary>
+  /// Delete user
+    /// </summary>
+    [HttpDelete("{id}")]
+    public async Task<ActionResult> DeleteUser(Guid id)
+    {
+        var result = await _userService.DeleteUserAsync(id);
+        
+        if (!result)
+   return NotFound($"User with ID '{id}' not found.");
+
+   return NoContent();
+    }
+}

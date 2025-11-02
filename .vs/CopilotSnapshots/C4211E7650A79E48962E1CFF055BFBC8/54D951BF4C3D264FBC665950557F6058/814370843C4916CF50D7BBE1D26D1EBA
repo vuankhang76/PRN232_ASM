@@ -1,0 +1,88 @@
+﻿using Repositories;
+using Services.DTOs;
+
+namespace Services;
+
+/// <summary>
+/// Submission service implementation for business logic
+/// </summary>
+public class SubmissionService : ISubmissionService
+{
+    private readonly IUnitOfWork _unitOfWork;
+
+    public SubmissionService(IUnitOfWork unitOfWork)
+    {
+        _unitOfWork = unitOfWork;
+    }
+
+    public async Task<IEnumerable<SubmissionDto>> GetAllSubmissionsAsync()
+    {
+        var submissions = await _unitOfWork.SubmissionRepository.GetAllAsync();
+
+        return submissions.Select(s => new SubmissionDto
+ {
+       SubmissionId = s.SubmissionId,
+StudentCode = s.Student.StudentCode,
+       StudentName = s.Student.FullName,
+       ExamName = s.Exam.ExamName,
+            Status = s.Status,
+        FinalScore = s.FinalScore,
+   UploadedAt = s.UploadedAt
+        });
+    }
+
+    public async Task<SubmissionDetailDto?> GetSubmissionByIdAsync(long submissionId)
+{
+     var submission = await _unitOfWork.SubmissionRepository.GetSubmissionWithDetailsAsync(submissionId);
+
+        if (submission == null)
+        return null;
+
+        return new SubmissionDetailDto
+        {
+   SubmissionId = submission.SubmissionId,
+     StudentCode = submission.Student.StudentCode,
+       StudentName = submission.Student.FullName,
+    ExamName = submission.Exam.ExamName,
+ SubjectName = submission.Exam.Subject.Name,
+         SemesterName = submission.Exam.Semester.Name,
+   Status = submission.Status,
+            FinalScore = submission.FinalScore,
+ FinalComment = submission.FinalComment,
+   UploadedAt = submission.UploadedAt,
+         FileCount = submission.SubmissionFiles.Count
+      };
+    }
+
+    public async Task<IEnumerable<SubmissionDto>> GetSubmissionsByExamAsync(int examId)
+    {
+  var submissions = await _unitOfWork.SubmissionRepository.GetSubmissionsByExamAsync(examId);
+
+        return submissions.Select(s => new SubmissionDto
+        {
+            SubmissionId = s.SubmissionId,
+       StudentCode = s.Student.StudentCode,
+   StudentName = s.Student.FullName,
+       ExamName = s.Exam.ExamName,
+       Status = s.Status,
+       FinalScore = s.FinalScore,
+  UploadedAt = s.UploadedAt
+        });
+    }
+
+    public async Task<IEnumerable<SubmissionDto>> GetSubmissionsByStudentAsync(int studentId)
+    {
+        var submissions = await _unitOfWork.SubmissionRepository.GetSubmissionsByStudentAsync(studentId);
+
+      return submissions.Select(s => new SubmissionDto
+   {
+   SubmissionId = s.SubmissionId,
+      StudentCode = s.Student.StudentCode,
+  StudentName = s.Student.FullName,
+  ExamName = s.Exam.ExamName,
+       Status = s.Status,
+FinalScore = s.FinalScore,
+          UploadedAt = s.UploadedAt
+        });
+    }
+}

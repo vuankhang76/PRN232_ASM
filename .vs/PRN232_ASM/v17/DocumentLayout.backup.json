@@ -1,0 +1,1798 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F8E9B353-A8E7-4E7C-B7A5-1C703A32AB64}|Repositories\\Repositories.csproj|c:\\users\\legion\\desktop\\pe\\prn232_asm\\repositories\\extractedimagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8E9B353-A8E7-4E7C-B7A5-1C703A32AB64}|Repositories\\Repositories.csproj|solutionrelative:repositories\\extractedimagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EE69072-732C-4C08-AC31-41ED8A11D47C}|Services\\Services.csproj|c:\\users\\legion\\desktop\\pe\\prn232_asm\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EE69072-732C-4C08-AC31-41ED8A11D47C}|Services\\Services.csproj|solutionrelative:services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EE69072-732C-4C08-AC31-41ED8A11D47C}|Services\\Services.csproj|c:\\users\\legion\\desktop\\pe\\prn232_asm\\services\\zeroscoreverificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EE69072-732C-4C08-AC31-41ED8A11D47C}|Services\\Services.csproj|solutionrelative:services\\zeroscoreverificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EE69072-732C-4C08-AC31-41ED8A11D47C}|Services\\Services.csproj|c:\\users\\legion\\desktop\\pe\\prn232_asm\\services\\violationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EE69072-732C-4C08-AC31-41ED8A11D47C}|Services\\Services.csproj|solutionrelative:services\\violationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10530B19-2E74-48E8-A3AB-7C6A502AFCF9}|BusinessObjects\\BusinessObjects.csproj|c:\\users\\legion\\desktop\\pe\\prn232_asm\\businessobjects\\detectedstudentfolder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10530B19-2E74-48E8-A3AB-7C6A502AFCF9}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\detectedstudentfolder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10530B19-2E74-48E8-A3AB-7C6A502AFCF9}|BusinessObjects\\BusinessObjects.csproj|c:\\users\\legion\\desktop\\pe\\prn232_asm\\businessobjects\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10530B19-2E74-48E8-A3AB-7C6A502AFCF9}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EE69072-732C-4C08-AC31-41ED8A11D47C}|Services\\Services.csproj|c:\\users\\legion\\desktop\\pe\\prn232_asm\\services\\examservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EE69072-732C-4C08-AC31-41ED8A11D47C}|Services\\Services.csproj|solutionrelative:services\\examservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EE69072-732C-4C08-AC31-41ED8A11D47C}|Services\\Services.csproj|c:\\users\\legion\\desktop\\pe\\prn232_asm\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EE69072-732C-4C08-AC31-41ED8A11D47C}|Services\\Services.csproj|solutionrelative:services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EAB6F45-0F26-4016-92E5-498257BCF172}|Controllers\\PRN232_ASM_API.csproj|c:\\users\\legion\\desktop\\pe\\prn232_asm\\controllers\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EAB6F45-0F26-4016-92E5-498257BCF172}|Controllers\\PRN232_ASM_API.csproj|solutionrelative:controllers\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8E9B353-A8E7-4E7C-B7A5-1C703A32AB64}|Repositories\\Repositories.csproj|c:\\users\\legion\\desktop\\pe\\prn232_asm\\repositories\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8E9B353-A8E7-4E7C-B7A5-1C703A32AB64}|Repositories\\Repositories.csproj|solutionrelative:repositories\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8E9B353-A8E7-4E7C-B7A5-1C703A32AB64}|Repositories\\Repositories.csproj|c:\\users\\legion\\desktop\\pe\\prn232_asm\\repositories\\istudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8E9B353-A8E7-4E7C-B7A5-1C703A32AB64}|Repositories\\Repositories.csproj|solutionrelative:repositories\\istudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8E9B353-A8E7-4E7C-B7A5-1C703A32AB64}|Repositories\\Repositories.csproj|c:\\users\\legion\\desktop\\pe\\prn232_asm\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8E9B353-A8E7-4E7C-B7A5-1C703A32AB64}|Repositories\\Repositories.csproj|solutionrelative:repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8E9B353-A8E7-4E7C-B7A5-1C703A32AB64}|Repositories\\Repositories.csproj|c:\\users\\legion\\desktop\\pe\\prn232_asm\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8E9B353-A8E7-4E7C-B7A5-1C703A32AB64}|Repositories\\Repositories.csproj|solutionrelative:repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10530B19-2E74-48E8-A3AB-7C6A502AFCF9}|BusinessObjects\\BusinessObjects.csproj|c:\\users\\legion\\desktop\\pe\\prn232_asm\\businessobjects\\prn232gradingcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10530B19-2E74-48E8-A3AB-7C6A502AFCF9}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\prn232gradingcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10530B19-2E74-48E8-A3AB-7C6A502AFCF9}|BusinessObjects\\BusinessObjects.csproj|c:\\users\\legion\\desktop\\pe\\prn232_asm\\businessobjects\\rubricitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10530B19-2E74-48E8-A3AB-7C6A502AFCF9}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\rubricitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8E9B353-A8E7-4E7C-B7A5-1C703A32AB64}|Repositories\\Repositories.csproj|c:\\users\\legion\\desktop\\pe\\prn232_asm\\repositories\\iexamrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8E9B353-A8E7-4E7C-B7A5-1C703A32AB64}|Repositories\\Repositories.csproj|solutionrelative:repositories\\iexamrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8E9B353-A8E7-4E7C-B7A5-1C703A32AB64}|Repositories\\Repositories.csproj|c:\\users\\legion\\desktop\\pe\\prn232_asm\\repositories\\examrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8E9B353-A8E7-4E7C-B7A5-1C703A32AB64}|Repositories\\Repositories.csproj|solutionrelative:repositories\\examrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8E9B353-A8E7-4E7C-B7A5-1C703A32AB64}|Repositories\\Repositories.csproj|c:\\users\\legion\\desktop\\pe\\prn232_asm\\repositories\\isubmissionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8E9B353-A8E7-4E7C-B7A5-1C703A32AB64}|Repositories\\Repositories.csproj|solutionrelative:repositories\\isubmissionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8E9B353-A8E7-4E7C-B7A5-1C703A32AB64}|Repositories\\Repositories.csproj|c:\\users\\legion\\desktop\\pe\\prn232_asm\\repositories\\submissionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8E9B353-A8E7-4E7C-B7A5-1C703A32AB64}|Repositories\\Repositories.csproj|solutionrelative:repositories\\submissionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8E9B353-A8E7-4E7C-B7A5-1C703A32AB64}|Repositories\\Repositories.csproj|c:\\users\\legion\\desktop\\pe\\prn232_asm\\repositories\\isubjectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8E9B353-A8E7-4E7C-B7A5-1C703A32AB64}|Repositories\\Repositories.csproj|solutionrelative:repositories\\isubjectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8E9B353-A8E7-4E7C-B7A5-1C703A32AB64}|Repositories\\Repositories.csproj|c:\\users\\legion\\desktop\\pe\\prn232_asm\\repositories\\subjectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8E9B353-A8E7-4E7C-B7A5-1C703A32AB64}|Repositories\\Repositories.csproj|solutionrelative:repositories\\subjectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8E9B353-A8E7-4E7C-B7A5-1C703A32AB64}|Repositories\\Repositories.csproj|c:\\users\\legion\\desktop\\pe\\prn232_asm\\repositories\\isemesterrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8E9B353-A8E7-4E7C-B7A5-1C703A32AB64}|Repositories\\Repositories.csproj|solutionrelative:repositories\\isemesterrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8E9B353-A8E7-4E7C-B7A5-1C703A32AB64}|Repositories\\Repositories.csproj|c:\\users\\legion\\desktop\\pe\\prn232_asm\\repositories\\semesterrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8E9B353-A8E7-4E7C-B7A5-1C703A32AB64}|Repositories\\Repositories.csproj|solutionrelative:repositories\\semesterrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8E9B353-A8E7-4E7C-B7A5-1C703A32AB64}|Repositories\\Repositories.csproj|c:\\users\\legion\\desktop\\pe\\prn232_asm\\repositories\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8E9B353-A8E7-4E7C-B7A5-1C703A32AB64}|Repositories\\Repositories.csproj|solutionrelative:repositories\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8E9B353-A8E7-4E7C-B7A5-1C703A32AB64}|Repositories\\Repositories.csproj|c:\\users\\legion\\desktop\\pe\\prn232_asm\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8E9B353-A8E7-4E7C-B7A5-1C703A32AB64}|Repositories\\Repositories.csproj|solutionrelative:repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EE69072-732C-4C08-AC31-41ED8A11D47C}|Services\\Services.csproj|c:\\users\\legion\\desktop\\pe\\prn232_asm\\services\\iexamservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EE69072-732C-4C08-AC31-41ED8A11D47C}|Services\\Services.csproj|solutionrelative:services\\iexamservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EE69072-732C-4C08-AC31-41ED8A11D47C}|Services\\Services.csproj|c:\\users\\legion\\desktop\\pe\\prn232_asm\\services\\isubmissionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EE69072-732C-4C08-AC31-41ED8A11D47C}|Services\\Services.csproj|solutionrelative:services\\isubmissionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EE69072-732C-4C08-AC31-41ED8A11D47C}|Services\\Services.csproj|c:\\users\\legion\\desktop\\pe\\prn232_asm\\services\\submissionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EE69072-732C-4C08-AC31-41ED8A11D47C}|Services\\Services.csproj|solutionrelative:services\\submissionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EAB6F45-0F26-4016-92E5-498257BCF172}|Controllers\\PRN232_ASM_API.csproj|c:\\users\\legion\\desktop\\pe\\prn232_asm\\controllers\\controllers\\examscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EAB6F45-0F26-4016-92E5-498257BCF172}|Controllers\\PRN232_ASM_API.csproj|solutionrelative:controllers\\controllers\\examscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EAB6F45-0F26-4016-92E5-498257BCF172}|Controllers\\PRN232_ASM_API.csproj|c:\\users\\legion\\desktop\\pe\\prn232_asm\\controllers\\controllers\\submissionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EAB6F45-0F26-4016-92E5-498257BCF172}|Controllers\\PRN232_ASM_API.csproj|solutionrelative:controllers\\controllers\\submissionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EAB6F45-0F26-4016-92E5-498257BCF172}|Controllers\\PRN232_ASM_API.csproj|c:\\users\\legion\\desktop\\pe\\prn232_asm\\controllers\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EAB6F45-0F26-4016-92E5-498257BCF172}|Controllers\\PRN232_ASM_API.csproj|solutionrelative:controllers\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EE69072-732C-4C08-AC31-41ED8A11D47C}|Services\\Services.csproj|c:\\users\\legion\\desktop\\pe\\prn232_asm\\services\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EE69072-732C-4C08-AC31-41ED8A11D47C}|Services\\Services.csproj|solutionrelative:services\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EE69072-732C-4C08-AC31-41ED8A11D47C}|Services\\Services.csproj|c:\\users\\legion\\desktop\\pe\\prn232_asm\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EE69072-732C-4C08-AC31-41ED8A11D47C}|Services\\Services.csproj|solutionrelative:services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EE69072-732C-4C08-AC31-41ED8A11D47C}|Services\\Services.csproj|c:\\users\\legion\\desktop\\pe\\prn232_asm\\services\\isubjectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EE69072-732C-4C08-AC31-41ED8A11D47C}|Services\\Services.csproj|solutionrelative:services\\isubjectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EE69072-732C-4C08-AC31-41ED8A11D47C}|Services\\Services.csproj|c:\\users\\legion\\desktop\\pe\\prn232_asm\\services\\subjectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EE69072-732C-4C08-AC31-41ED8A11D47C}|Services\\Services.csproj|solutionrelative:services\\subjectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EE69072-732C-4C08-AC31-41ED8A11D47C}|Services\\Services.csproj|c:\\users\\legion\\desktop\\pe\\prn232_asm\\services\\isemesterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EE69072-732C-4C08-AC31-41ED8A11D47C}|Services\\Services.csproj|solutionrelative:services\\isemesterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EE69072-732C-4C08-AC31-41ED8A11D47C}|Services\\Services.csproj|c:\\users\\legion\\desktop\\pe\\prn232_asm\\services\\semesterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EE69072-732C-4C08-AC31-41ED8A11D47C}|Services\\Services.csproj|solutionrelative:services\\semesterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\LEGION\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\-286890391\\IGenericRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\LEGION\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\-286890391\\GenericRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\LEGION\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\-286890391\\IUserRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8E9B353-A8E7-4E7C-B7A5-1C703A32AB64}|Repositories\\Repositories.csproj|c:\\users\\legion\\desktop\\pe\\prn232_asm\\repositories\\iapprolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8E9B353-A8E7-4E7C-B7A5-1C703A32AB64}|Repositories\\Repositories.csproj|solutionrelative:repositories\\iapprolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8E9B353-A8E7-4E7C-B7A5-1C703A32AB64}|Repositories\\Repositories.csproj|c:\\users\\legion\\desktop\\pe\\prn232_asm\\repositories\\approlerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8E9B353-A8E7-4E7C-B7A5-1C703A32AB64}|Repositories\\Repositories.csproj|solutionrelative:repositories\\approlerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8E9B353-A8E7-4E7C-B7A5-1C703A32AB64}|Repositories\\Repositories.csproj|c:\\users\\legion\\desktop\\pe\\prn232_asm\\repositories\\irubricitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8E9B353-A8E7-4E7C-B7A5-1C703A32AB64}|Repositories\\Repositories.csproj|solutionrelative:repositories\\irubricitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8E9B353-A8E7-4E7C-B7A5-1C703A32AB64}|Repositories\\Repositories.csproj|c:\\users\\legion\\desktop\\pe\\prn232_asm\\repositories\\rubricitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8E9B353-A8E7-4E7C-B7A5-1C703A32AB64}|Repositories\\Repositories.csproj|solutionrelative:repositories\\rubricitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8E9B353-A8E7-4E7C-B7A5-1C703A32AB64}|Repositories\\Repositories.csproj|c:\\users\\legion\\desktop\\pe\\prn232_asm\\repositories\\iexaminerassignmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8E9B353-A8E7-4E7C-B7A5-1C703A32AB64}|Repositories\\Repositories.csproj|solutionrelative:repositories\\iexaminerassignmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8E9B353-A8E7-4E7C-B7A5-1C703A32AB64}|Repositories\\Repositories.csproj|c:\\users\\legion\\desktop\\pe\\prn232_asm\\repositories\\examinerassignmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8E9B353-A8E7-4E7C-B7A5-1C703A32AB64}|Repositories\\Repositories.csproj|solutionrelative:repositories\\examinerassignmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8E9B353-A8E7-4E7C-B7A5-1C703A32AB64}|Repositories\\Repositories.csproj|c:\\users\\legion\\desktop\\pe\\prn232_asm\\repositories\\iexaminerscorerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8E9B353-A8E7-4E7C-B7A5-1C703A32AB64}|Repositories\\Repositories.csproj|solutionrelative:repositories\\iexaminerscorerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8E9B353-A8E7-4E7C-B7A5-1C703A32AB64}|Repositories\\Repositories.csproj|c:\\users\\legion\\desktop\\pe\\prn232_asm\\repositories\\examinerscorerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8E9B353-A8E7-4E7C-B7A5-1C703A32AB64}|Repositories\\Repositories.csproj|solutionrelative:repositories\\examinerscorerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8E9B353-A8E7-4E7C-B7A5-1C703A32AB64}|Repositories\\Repositories.csproj|c:\\users\\legion\\desktop\\pe\\prn232_asm\\repositories\\iviolationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8E9B353-A8E7-4E7C-B7A5-1C703A32AB64}|Repositories\\Repositories.csproj|solutionrelative:repositories\\iviolationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8E9B353-A8E7-4E7C-B7A5-1C703A32AB64}|Repositories\\Repositories.csproj|c:\\users\\legion\\desktop\\pe\\prn232_asm\\repositories\\violationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8E9B353-A8E7-4E7C-B7A5-1C703A32AB64}|Repositories\\Repositories.csproj|solutionrelative:repositories\\violationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8E9B353-A8E7-4E7C-B7A5-1C703A32AB64}|Repositories\\Repositories.csproj|c:\\users\\legion\\desktop\\pe\\prn232_asm\\repositories\\iviolationtyperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8E9B353-A8E7-4E7C-B7A5-1C703A32AB64}|Repositories\\Repositories.csproj|solutionrelative:repositories\\iviolationtyperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8E9B353-A8E7-4E7C-B7A5-1C703A32AB64}|Repositories\\Repositories.csproj|c:\\users\\legion\\desktop\\pe\\prn232_asm\\repositories\\violationtyperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8E9B353-A8E7-4E7C-B7A5-1C703A32AB64}|Repositories\\Repositories.csproj|solutionrelative:repositories\\violationtyperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8E9B353-A8E7-4E7C-B7A5-1C703A32AB64}|Repositories\\Repositories.csproj|c:\\users\\legion\\desktop\\pe\\prn232_asm\\repositories\\iingestbatchrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8E9B353-A8E7-4E7C-B7A5-1C703A32AB64}|Repositories\\Repositories.csproj|solutionrelative:repositories\\iingestbatchrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8E9B353-A8E7-4E7C-B7A5-1C703A32AB64}|Repositories\\Repositories.csproj|c:\\users\\legion\\desktop\\pe\\prn232_asm\\repositories\\ingestbatchrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8E9B353-A8E7-4E7C-B7A5-1C703A32AB64}|Repositories\\Repositories.csproj|solutionrelative:repositories\\ingestbatchrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8E9B353-A8E7-4E7C-B7A5-1C703A32AB64}|Repositories\\Repositories.csproj|c:\\users\\legion\\desktop\\pe\\prn232_asm\\repositories\\ifinalgraderepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8E9B353-A8E7-4E7C-B7A5-1C703A32AB64}|Repositories\\Repositories.csproj|solutionrelative:repositories\\ifinalgraderepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8E9B353-A8E7-4E7C-B7A5-1C703A32AB64}|Repositories\\Repositories.csproj|c:\\users\\legion\\desktop\\pe\\prn232_asm\\repositories\\finalgraderepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8E9B353-A8E7-4E7C-B7A5-1C703A32AB64}|Repositories\\Repositories.csproj|solutionrelative:repositories\\finalgraderepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EE69072-732C-4C08-AC31-41ED8A11D47C}|Services\\Services.csproj|c:\\users\\legion\\desktop\\pe\\prn232_asm\\services\\iapproleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EE69072-732C-4C08-AC31-41ED8A11D47C}|Services\\Services.csproj|solutionrelative:services\\iapproleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EE69072-732C-4C08-AC31-41ED8A11D47C}|Services\\Services.csproj|c:\\users\\legion\\desktop\\pe\\prn232_asm\\services\\approleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EE69072-732C-4C08-AC31-41ED8A11D47C}|Services\\Services.csproj|solutionrelative:services\\approleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EE69072-732C-4C08-AC31-41ED8A11D47C}|Services\\Services.csproj|c:\\users\\legion\\desktop\\pe\\prn232_asm\\services\\irubricitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EE69072-732C-4C08-AC31-41ED8A11D47C}|Services\\Services.csproj|solutionrelative:services\\irubricitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EE69072-732C-4C08-AC31-41ED8A11D47C}|Services\\Services.csproj|c:\\users\\legion\\desktop\\pe\\prn232_asm\\services\\rubricitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EE69072-732C-4C08-AC31-41ED8A11D47C}|Services\\Services.csproj|solutionrelative:services\\rubricitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EE69072-732C-4C08-AC31-41ED8A11D47C}|Services\\Services.csproj|c:\\users\\legion\\desktop\\pe\\prn232_asm\\services\\iexaminerassignmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EE69072-732C-4C08-AC31-41ED8A11D47C}|Services\\Services.csproj|solutionrelative:services\\iexaminerassignmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EE69072-732C-4C08-AC31-41ED8A11D47C}|Services\\Services.csproj|c:\\users\\legion\\desktop\\pe\\prn232_asm\\services\\examinerassignmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EE69072-732C-4C08-AC31-41ED8A11D47C}|Services\\Services.csproj|solutionrelative:services\\examinerassignmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EE69072-732C-4C08-AC31-41ED8A11D47C}|Services\\Services.csproj|c:\\users\\legion\\desktop\\pe\\prn232_asm\\services\\iexaminerscoreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EE69072-732C-4C08-AC31-41ED8A11D47C}|Services\\Services.csproj|solutionrelative:services\\iexaminerscoreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EE69072-732C-4C08-AC31-41ED8A11D47C}|Services\\Services.csproj|c:\\users\\legion\\desktop\\pe\\prn232_asm\\services\\examinerscoreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EE69072-732C-4C08-AC31-41ED8A11D47C}|Services\\Services.csproj|solutionrelative:services\\examinerscoreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EE69072-732C-4C08-AC31-41ED8A11D47C}|Services\\Services.csproj|c:\\users\\legion\\desktop\\pe\\prn232_asm\\services\\iviolationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EE69072-732C-4C08-AC31-41ED8A11D47C}|Services\\Services.csproj|solutionrelative:services\\iviolationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EAB6F45-0F26-4016-92E5-498257BCF172}|Controllers\\PRN232_ASM_API.csproj|c:\\users\\legion\\desktop\\pe\\prn232_asm\\controllers\\configuration\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EAB6F45-0F26-4016-92E5-498257BCF172}|Controllers\\PRN232_ASM_API.csproj|solutionrelative:controllers\\configuration\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EE69072-732C-4C08-AC31-41ED8A11D47C}|Services\\Services.csproj|c:\\users\\legion\\desktop\\pe\\prn232_asm\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EE69072-732C-4C08-AC31-41ED8A11D47C}|Services\\Services.csproj|solutionrelative:services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EE69072-732C-4C08-AC31-41ED8A11D47C}|Services\\Services.csproj|c:\\users\\legion\\desktop\\pe\\prn232_asm\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EE69072-732C-4C08-AC31-41ED8A11D47C}|Services\\Services.csproj|solutionrelative:services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EAB6F45-0F26-4016-92E5-498257BCF172}|Controllers\\PRN232_ASM_API.csproj|c:\\users\\legion\\desktop\\pe\\prn232_asm\\controllers\\hubs\\gradinghub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EAB6F45-0F26-4016-92E5-498257BCF172}|Controllers\\PRN232_ASM_API.csproj|solutionrelative:controllers\\hubs\\gradinghub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EAB6F45-0F26-4016-92E5-498257BCF172}|Controllers\\PRN232_ASM_API.csproj|c:\\users\\legion\\desktop\\pe\\prn232_asm\\controllers\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EAB6F45-0F26-4016-92E5-498257BCF172}|Controllers\\PRN232_ASM_API.csproj|solutionrelative:controllers\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EAB6F45-0F26-4016-92E5-498257BCF172}|Controllers\\PRN232_ASM_API.csproj|c:\\users\\legion\\desktop\\pe\\prn232_asm\\controllers\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EAB6F45-0F26-4016-92E5-498257BCF172}|Controllers\\PRN232_ASM_API.csproj|solutionrelative:controllers\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EAB6F45-0F26-4016-92E5-498257BCF172}|Controllers\\PRN232_ASM_API.csproj|c:\\users\\legion\\desktop\\pe\\prn232_asm\\controllers\\controllers\\assignmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EAB6F45-0F26-4016-92E5-498257BCF172}|Controllers\\PRN232_ASM_API.csproj|solutionrelative:controllers\\controllers\\assignmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EAB6F45-0F26-4016-92E5-498257BCF172}|Controllers\\PRN232_ASM_API.csproj|c:\\users\\legion\\desktop\\pe\\prn232_asm\\controllers\\controllers\\scorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EAB6F45-0F26-4016-92E5-498257BCF172}|Controllers\\PRN232_ASM_API.csproj|solutionrelative:controllers\\controllers\\scorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EAB6F45-0F26-4016-92E5-498257BCF172}|Controllers\\PRN232_ASM_API.csproj|c:\\users\\legion\\desktop\\pe\\prn232_asm\\controllers\\controllers\\violationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EAB6F45-0F26-4016-92E5-498257BCF172}|Controllers\\PRN232_ASM_API.csproj|solutionrelative:controllers\\controllers\\violationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EAB6F45-0F26-4016-92E5-498257BCF172}|Controllers\\PRN232_ASM_API.csproj|c:\\users\\legion\\desktop\\pe\\prn232_asm\\controllers\\controllers\\rubricitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EAB6F45-0F26-4016-92E5-498257BCF172}|Controllers\\PRN232_ASM_API.csproj|solutionrelative:controllers\\controllers\\rubricitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EAB6F45-0F26-4016-92E5-498257BCF172}|Controllers\\PRN232_ASM_API.csproj|c:\\users\\legion\\desktop\\pe\\prn232_asm\\controllers\\controllers\\odata\\submissionsodatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EAB6F45-0F26-4016-92E5-498257BCF172}|Controllers\\PRN232_ASM_API.csproj|solutionrelative:controllers\\controllers\\odata\\submissionsodatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EAB6F45-0F26-4016-92E5-498257BCF172}|Controllers\\PRN232_ASM_API.csproj|c:\\users\\legion\\desktop\\pe\\prn232_asm\\controllers\\controllers\\odata\\examsodatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EAB6F45-0F26-4016-92E5-498257BCF172}|Controllers\\PRN232_ASM_API.csproj|solutionrelative:controllers\\controllers\\odata\\examsodatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EAB6F45-0F26-4016-92E5-498257BCF172}|Controllers\\PRN232_ASM_API.csproj|c:\\users\\legion\\desktop\\pe\\prn232_asm\\controllers\\controllers\\odata\\violationsodatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EAB6F45-0F26-4016-92E5-498257BCF172}|Controllers\\PRN232_ASM_API.csproj|solutionrelative:controllers\\controllers\\odata\\violationsodatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EAB6F45-0F26-4016-92E5-498257BCF172}|Controllers\\PRN232_ASM_API.csproj|c:\\users\\legion\\desktop\\pe\\prn232_asm\\controllers\\controllers\\odata\\examinerscoresodatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EAB6F45-0F26-4016-92E5-498257BCF172}|Controllers\\PRN232_ASM_API.csproj|solutionrelative:controllers\\controllers\\odata\\examinerscoresodatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EE69072-732C-4C08-AC31-41ED8A11D47C}|Services\\Services.csproj|c:\\users\\legion\\desktop\\pe\\prn232_asm\\services\\iexcelexportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EE69072-732C-4C08-AC31-41ED8A11D47C}|Services\\Services.csproj|solutionrelative:services\\iexcelexportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EE69072-732C-4C08-AC31-41ED8A11D47C}|Services\\Services.csproj|c:\\users\\legion\\desktop\\pe\\prn232_asm\\services\\excelexportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EE69072-732C-4C08-AC31-41ED8A11D47C}|Services\\Services.csproj|solutionrelative:services\\excelexportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EAB6F45-0F26-4016-92E5-498257BCF172}|Controllers\\PRN232_ASM_API.csproj|c:\\users\\legion\\desktop\\pe\\prn232_asm\\controllers\\controllers\\exportscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EAB6F45-0F26-4016-92E5-498257BCF172}|Controllers\\PRN232_ASM_API.csproj|solutionrelative:controllers\\controllers\\exportscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EE69072-732C-4C08-AC31-41ED8A11D47C}|Services\\Services.csproj|c:\\users\\legion\\desktop\\pe\\prn232_asm\\services\\services.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3EE69072-732C-4C08-AC31-41ED8A11D47C}|Services\\Services.csproj|solutionrelative:services\\services.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EAB6F45-0F26-4016-92E5-498257BCF172}|Controllers\\PRN232_ASM_API.csproj|c:\\users\\legion\\desktop\\pe\\prn232_asm\\controllers\\prn232_asm_api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2EAB6F45-0F26-4016-92E5-498257BCF172}|Controllers\\PRN232_ASM_API.csproj|solutionrelative:controllers\\prn232_asm_api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EAB6F45-0F26-4016-92E5-498257BCF172}|Controllers\\PRN232_ASM_API.csproj|c:\\users\\legion\\desktop\\pe\\prn232_asm\\controllers\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2EAB6F45-0F26-4016-92E5-498257BCF172}|Controllers\\PRN232_ASM_API.csproj|solutionrelative:controllers\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8E9B353-A8E7-4E7C-B7A5-1C703A32AB64}|Repositories\\Repositories.csproj|c:\\users\\legion\\desktop\\pe\\prn232_asm\\repositories\\idetectedstudentfolderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8E9B353-A8E7-4E7C-B7A5-1C703A32AB64}|Repositories\\Repositories.csproj|solutionrelative:repositories\\idetectedstudentfolderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8E9B353-A8E7-4E7C-B7A5-1C703A32AB64}|Repositories\\Repositories.csproj|c:\\users\\legion\\desktop\\pe\\prn232_asm\\repositories\\detectedstudentfolderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8E9B353-A8E7-4E7C-B7A5-1C703A32AB64}|Repositories\\Repositories.csproj|solutionrelative:repositories\\detectedstudentfolderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8E9B353-A8E7-4E7C-B7A5-1C703A32AB64}|Repositories\\Repositories.csproj|c:\\users\\legion\\desktop\\pe\\prn232_asm\\repositories\\iduplicategrouprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8E9B353-A8E7-4E7C-B7A5-1C703A32AB64}|Repositories\\Repositories.csproj|solutionrelative:repositories\\iduplicategrouprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8E9B353-A8E7-4E7C-B7A5-1C703A32AB64}|Repositories\\Repositories.csproj|c:\\users\\legion\\desktop\\pe\\prn232_asm\\repositories\\duplicategrouprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8E9B353-A8E7-4E7C-B7A5-1C703A32AB64}|Repositories\\Repositories.csproj|solutionrelative:repositories\\duplicategrouprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8E9B353-A8E7-4E7C-B7A5-1C703A32AB64}|Repositories\\Repositories.csproj|c:\\users\\legion\\desktop\\pe\\prn232_asm\\repositories\\iingestfilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8E9B353-A8E7-4E7C-B7A5-1C703A32AB64}|Repositories\\Repositories.csproj|solutionrelative:repositories\\iingestfilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8E9B353-A8E7-4E7C-B7A5-1C703A32AB64}|Repositories\\Repositories.csproj|c:\\users\\legion\\desktop\\pe\\prn232_asm\\repositories\\ingestfilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8E9B353-A8E7-4E7C-B7A5-1C703A32AB64}|Repositories\\Repositories.csproj|solutionrelative:repositories\\ingestfilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8E9B353-A8E7-4E7C-B7A5-1C703A32AB64}|Repositories\\Repositories.csproj|c:\\users\\legion\\desktop\\pe\\prn232_asm\\repositories\\isubmissionfilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8E9B353-A8E7-4E7C-B7A5-1C703A32AB64}|Repositories\\Repositories.csproj|solutionrelative:repositories\\isubmissionfilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8E9B353-A8E7-4E7C-B7A5-1C703A32AB64}|Repositories\\Repositories.csproj|c:\\users\\legion\\desktop\\pe\\prn232_asm\\repositories\\submissionfilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8E9B353-A8E7-4E7C-B7A5-1C703A32AB64}|Repositories\\Repositories.csproj|solutionrelative:repositories\\submissionfilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8E9B353-A8E7-4E7C-B7A5-1C703A32AB64}|Repositories\\Repositories.csproj|c:\\users\\legion\\desktop\\pe\\prn232_asm\\repositories\\iextractedimagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8E9B353-A8E7-4E7C-B7A5-1C703A32AB64}|Repositories\\Repositories.csproj|solutionrelative:repositories\\iextractedimagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8E9B353-A8E7-4E7C-B7A5-1C703A32AB64}|Repositories\\Repositories.csproj|c:\\users\\legion\\desktop\\pe\\prn232_asm\\repositories\\izeroscoreverificationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8E9B353-A8E7-4E7C-B7A5-1C703A32AB64}|Repositories\\Repositories.csproj|solutionrelative:repositories\\izeroscoreverificationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8E9B353-A8E7-4E7C-B7A5-1C703A32AB64}|Repositories\\Repositories.csproj|c:\\users\\legion\\desktop\\pe\\prn232_asm\\repositories\\zeroscoreverificationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8E9B353-A8E7-4E7C-B7A5-1C703A32AB64}|Repositories\\Repositories.csproj|solutionrelative:repositories\\zeroscoreverificationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EE69072-732C-4C08-AC31-41ED8A11D47C}|Services\\Services.csproj|c:\\users\\legion\\desktop\\pe\\prn232_asm\\services\\iduplicategroupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EE69072-732C-4C08-AC31-41ED8A11D47C}|Services\\Services.csproj|solutionrelative:services\\iduplicategroupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EE69072-732C-4C08-AC31-41ED8A11D47C}|Services\\Services.csproj|c:\\users\\legion\\desktop\\pe\\prn232_asm\\services\\duplicategroupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EE69072-732C-4C08-AC31-41ED8A11D47C}|Services\\Services.csproj|solutionrelative:services\\duplicategroupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EE69072-732C-4C08-AC31-41ED8A11D47C}|Services\\Services.csproj|c:\\users\\legion\\desktop\\pe\\prn232_asm\\services\\izeroscoreverificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EE69072-732C-4C08-AC31-41ED8A11D47C}|Services\\Services.csproj|solutionrelative:services\\izeroscoreverificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EAB6F45-0F26-4016-92E5-498257BCF172}|Controllers\\PRN232_ASM_API.csproj|c:\\users\\legion\\desktop\\pe\\prn232_asm\\controllers\\controllers\\duplicatescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EAB6F45-0F26-4016-92E5-498257BCF172}|Controllers\\PRN232_ASM_API.csproj|solutionrelative:controllers\\controllers\\duplicatescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EAB6F45-0F26-4016-92E5-498257BCF172}|Controllers\\PRN232_ASM_API.csproj|c:\\users\\legion\\desktop\\pe\\prn232_asm\\controllers\\controllers\\zeroscoreverificationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EAB6F45-0F26-4016-92E5-498257BCF172}|Controllers\\PRN232_ASM_API.csproj|solutionrelative:controllers\\controllers\\zeroscoreverificationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EE69072-732C-4C08-AC31-41ED8A11D47C}|Services\\Services.csproj|c:\\users\\legion\\desktop\\pe\\prn232_asm\\services\\iingestbatchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EE69072-732C-4C08-AC31-41ED8A11D47C}|Services\\Services.csproj|solutionrelative:services\\iingestbatchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EE69072-732C-4C08-AC31-41ED8A11D47C}|Services\\Services.csproj|c:\\users\\legion\\desktop\\pe\\prn232_asm\\services\\ingestbatchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EE69072-732C-4C08-AC31-41ED8A11D47C}|Services\\Services.csproj|solutionrelative:services\\ingestbatchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EAB6F45-0F26-4016-92E5-498257BCF172}|Controllers\\PRN232_ASM_API.csproj|c:\\users\\legion\\desktop\\pe\\prn232_asm\\controllers\\controllers\\ingestbatchescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EAB6F45-0F26-4016-92E5-498257BCF172}|Controllers\\PRN232_ASM_API.csproj|solutionrelative:controllers\\controllers\\ingestbatchescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EAB6F45-0F26-4016-92E5-498257BCF172}|Controllers\\PRN232_ASM_API.csproj|c:\\users\\legion\\desktop\\pe\\prn232_asm\\controllers\\controllers\\subjectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EAB6F45-0F26-4016-92E5-498257BCF172}|Controllers\\PRN232_ASM_API.csproj|solutionrelative:controllers\\controllers\\subjectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EAB6F45-0F26-4016-92E5-498257BCF172}|Controllers\\PRN232_ASM_API.csproj|c:\\users\\legion\\desktop\\pe\\prn232_asm\\controllers\\controllers\\semesterscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EAB6F45-0F26-4016-92E5-498257BCF172}|Controllers\\PRN232_ASM_API.csproj|solutionrelative:controllers\\controllers\\semesterscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:24:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:25:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:26:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 104,
+              "Title": "IngestBatchesController.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Controllers\\Controllers\\IngestBatchesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\Controllers\\IngestBatchesController.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Controllers\\Controllers\\IngestBatchesController.cs",
+              "RelativeToolTip": "Controllers\\Controllers\\IngestBatchesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T08:15:12.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 103,
+              "Title": "IngestBatchService.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Services\\IngestBatchService.cs",
+              "RelativeDocumentMoniker": "Services\\IngestBatchService.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Services\\IngestBatchService.cs",
+              "RelativeToolTip": "Services\\IngestBatchService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T08:14:13.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 102,
+              "Title": "IIngestBatchService.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Services\\IIngestBatchService.cs",
+              "RelativeDocumentMoniker": "Services\\IIngestBatchService.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Services\\IIngestBatchService.cs",
+              "RelativeToolTip": "Services\\IIngestBatchService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T08:13:59.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ExtractedImageRepository.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Repositories\\ExtractedImageRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\ExtractedImageRepository.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Repositories\\ExtractedImageRepository.cs",
+              "RelativeToolTip": "Repositories\\ExtractedImageRepository.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAA9wAgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T08:08:07.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 106,
+              "Title": "SemestersController.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Controllers\\Controllers\\SemestersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\Controllers\\SemestersController.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Controllers\\Controllers\\SemestersController.cs",
+              "RelativeToolTip": "Controllers\\Controllers\\SemestersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T08:15:44.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 105,
+              "Title": "SubjectsController.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Controllers\\Controllers\\SubjectsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\Controllers\\SubjectsController.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Controllers\\Controllers\\SubjectsController.cs",
+              "RelativeToolTip": "Controllers\\Controllers\\SubjectsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T08:15:27.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Services\\UserService.cs",
+              "RelativeToolTip": "Services\\UserService.cs",
+              "ViewState": "AgIAAIMAAAAAAAAAAAAAAIMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T12:17:37.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ZeroScoreVerificationService.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Services\\ZeroScoreVerificationService.cs",
+              "RelativeDocumentMoniker": "Services\\ZeroScoreVerificationService.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Services\\ZeroScoreVerificationService.cs",
+              "RelativeToolTip": "Services\\ZeroScoreVerificationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T08:09:46.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 100,
+              "Title": "DuplicatesController.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Controllers\\Controllers\\DuplicatesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\Controllers\\DuplicatesController.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Controllers\\Controllers\\DuplicatesController.cs",
+              "RelativeToolTip": "Controllers\\Controllers\\DuplicatesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAH8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T08:10:50.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 101,
+              "Title": "ZeroScoreVerificationsController.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Controllers\\Controllers\\ZeroScoreVerificationsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\Controllers\\ZeroScoreVerificationsController.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Controllers\\Controllers\\ZeroScoreVerificationsController.cs",
+              "RelativeToolTip": "Controllers\\Controllers\\ZeroScoreVerificationsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T08:11:06.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ViolationService.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Services\\ViolationService.cs",
+              "RelativeDocumentMoniker": "Services\\ViolationService.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Services\\ViolationService.cs",
+              "RelativeToolTip": "Services\\ViolationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T12:32:14.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DetectedStudentFolder.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\BusinessObjects\\DetectedStudentFolder.cs",
+              "RelativeDocumentMoniker": "BusinessObjects\\DetectedStudentFolder.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\BusinessObjects\\DetectedStudentFolder.cs",
+              "RelativeToolTip": "BusinessObjects\\DetectedStudentFolder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T08:03:32.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "IDuplicateGroupRepository.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Repositories\\IDuplicateGroupRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IDuplicateGroupRepository.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Repositories\\IDuplicateGroupRepository.cs",
+              "RelativeToolTip": "Repositories\\IDuplicateGroupRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T08:06:55.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 95,
+              "Title": "IZeroScoreVerificationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Repositories\\IZeroScoreVerificationRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IZeroScoreVerificationRepository.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Repositories\\IZeroScoreVerificationRepository.cs",
+              "RelativeToolTip": "Repositories\\IZeroScoreVerificationRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T08:08:14.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 97,
+              "Title": "IDuplicateGroupService.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Services\\IDuplicateGroupService.cs",
+              "RelativeDocumentMoniker": "Services\\IDuplicateGroupService.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Services\\IDuplicateGroupService.cs",
+              "RelativeToolTip": "Services\\IDuplicateGroupService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T08:09:12.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 99,
+              "Title": "IZeroScoreVerificationService.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Services\\IZeroScoreVerificationService.cs",
+              "RelativeDocumentMoniker": "Services\\IZeroScoreVerificationService.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Services\\IZeroScoreVerificationService.cs",
+              "RelativeToolTip": "Services\\IZeroScoreVerificationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T08:09:34.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 98,
+              "Title": "DuplicateGroupService.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Services\\DuplicateGroupService.cs",
+              "RelativeDocumentMoniker": "Services\\DuplicateGroupService.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Services\\DuplicateGroupService.cs",
+              "RelativeToolTip": "Services\\DuplicateGroupService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T08:09:23.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 96,
+              "Title": "ZeroScoreVerificationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Repositories\\ZeroScoreVerificationRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\ZeroScoreVerificationRepository.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Repositories\\ZeroScoreVerificationRepository.cs",
+              "RelativeToolTip": "Repositories\\ZeroScoreVerificationRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T08:08:26.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "DetectedStudentFolderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Repositories\\DetectedStudentFolderRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\DetectedStudentFolderRepository.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Repositories\\DetectedStudentFolderRepository.cs",
+              "RelativeToolTip": "Repositories\\DetectedStudentFolderRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T08:06:45.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "IDetectedStudentFolderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Repositories\\IDetectedStudentFolderRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IDetectedStudentFolderRepository.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Repositories\\IDetectedStudentFolderRepository.cs",
+              "RelativeToolTip": "Repositories\\IDetectedStudentFolderRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T08:06:32.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 94,
+              "Title": "IExtractedImageRepository.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Repositories\\IExtractedImageRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IExtractedImageRepository.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Repositories\\IExtractedImageRepository.cs",
+              "RelativeToolTip": "Repositories\\IExtractedImageRepository.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAABBwBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T08:07:56.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 93,
+              "Title": "SubmissionFileRepository.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Repositories\\SubmissionFileRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\SubmissionFileRepository.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Repositories\\SubmissionFileRepository.cs",
+              "RelativeToolTip": "Repositories\\SubmissionFileRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T08:07:48.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 92,
+              "Title": "ISubmissionFileRepository.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Repositories\\ISubmissionFileRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\ISubmissionFileRepository.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Repositories\\ISubmissionFileRepository.cs",
+              "RelativeToolTip": "Repositories\\ISubmissionFileRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T08:07:37.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "IngestFileRepository.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Repositories\\IngestFileRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IngestFileRepository.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Repositories\\IngestFileRepository.cs",
+              "RelativeToolTip": "Repositories\\IngestFileRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T08:07:30.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "IIngestFileRepository.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Repositories\\IIngestFileRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IIngestFileRepository.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Repositories\\IIngestFileRepository.cs",
+              "RelativeToolTip": "Repositories\\IIngestFileRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T08:07:18.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "DuplicateGroupRepository.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Repositories\\DuplicateGroupRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\DuplicateGroupRepository.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Repositories\\DuplicateGroupRepository.cs",
+              "RelativeToolTip": "Repositories\\DuplicateGroupRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T08:07:09.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\BusinessObjects\\AppUser.cs",
+              "RelativeDocumentMoniker": "BusinessObjects\\AppUser.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\BusinessObjects\\AppUser.cs",
+              "RelativeToolTip": "BusinessObjects\\AppUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T08:03:21.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "PRN232_ASM_API.csproj",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Controllers\\PRN232_ASM_API.csproj",
+              "RelativeDocumentMoniker": "Controllers\\PRN232_ASM_API.csproj",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Controllers\\PRN232_ASM_API.csproj",
+              "RelativeToolTip": "Controllers\\PRN232_ASM_API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-01T14:37:44.031Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFMBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-11-01T12:46:18.957Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "Services.csproj",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Services\\Services.csproj",
+              "RelativeDocumentMoniker": "Services\\Services.csproj",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Services\\Services.csproj",
+              "RelativeToolTip": "Services\\Services.csproj",
+              "ViewState": "AgIAABMAAAAAAAAAAABBwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-01T12:45:14.174Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "GradingHub.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Controllers\\Hubs\\GradingHub.cs",
+              "RelativeDocumentMoniker": "Controllers\\Hubs\\GradingHub.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Controllers\\Hubs\\GradingHub.cs",
+              "RelativeToolTip": "Controllers\\Hubs\\GradingHub.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T12:39:01.779Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Services\\AuthService.cs",
+              "RelativeToolTip": "Services\\AuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJ0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T12:38:49.83Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ExamService.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Services\\ExamService.cs",
+              "RelativeDocumentMoniker": "Services\\ExamService.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Services\\ExamService.cs",
+              "RelativeToolTip": "Services\\ExamService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T12:18:03.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Controllers\\appsettings.json",
+              "RelativeDocumentMoniker": "Controllers\\appsettings.json",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Controllers\\appsettings.json",
+              "RelativeToolTip": "Controllers\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-01T14:37:44.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Controllers\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Controllers\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T12:39:15.587Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "StudentsController.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Controllers\\Controllers\\StudentsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\Controllers\\StudentsController.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Controllers\\Controllers\\StudentsController.cs",
+              "RelativeToolTip": "Controllers\\Controllers\\StudentsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T12:39:35.224Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "ExportsController.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Controllers\\Controllers\\ExportsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\Controllers\\ExportsController.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Controllers\\Controllers\\ExportsController.cs",
+              "RelativeToolTip": "Controllers\\Controllers\\ExportsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T12:44:05.914Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "ExcelExportService.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Services\\ExcelExportService.cs",
+              "RelativeDocumentMoniker": "Services\\ExcelExportService.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Services\\ExcelExportService.cs",
+              "RelativeToolTip": "Services\\ExcelExportService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T12:43:49.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "IExcelExportService.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Services\\IExcelExportService.cs",
+              "RelativeDocumentMoniker": "Services\\IExcelExportService.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Services\\IExcelExportService.cs",
+              "RelativeToolTip": "Services\\IExcelExportService.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAGBmwA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T12:43:20.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "ExaminerScoresODataController.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Controllers\\Controllers\\OData\\ExaminerScoresODataController.cs",
+              "RelativeDocumentMoniker": "Controllers\\Controllers\\OData\\ExaminerScoresODataController.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Controllers\\Controllers\\OData\\ExaminerScoresODataController.cs",
+              "RelativeToolTip": "Controllers\\Controllers\\OData\\ExaminerScoresODataController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T12:43:12.936Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "ViolationsODataController.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Controllers\\Controllers\\OData\\ViolationsODataController.cs",
+              "RelativeDocumentMoniker": "Controllers\\Controllers\\OData\\ViolationsODataController.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Controllers\\Controllers\\OData\\ViolationsODataController.cs",
+              "RelativeToolTip": "Controllers\\Controllers\\OData\\ViolationsODataController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T12:42:49.556Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "ExamsODataController.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Controllers\\Controllers\\OData\\ExamsODataController.cs",
+              "RelativeDocumentMoniker": "Controllers\\Controllers\\OData\\ExamsODataController.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Controllers\\Controllers\\OData\\ExamsODataController.cs",
+              "RelativeToolTip": "Controllers\\Controllers\\OData\\ExamsODataController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T12:42:39.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "SubmissionsODataController.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Controllers\\Controllers\\OData\\SubmissionsODataController.cs",
+              "RelativeDocumentMoniker": "Controllers\\Controllers\\OData\\SubmissionsODataController.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Controllers\\Controllers\\OData\\SubmissionsODataController.cs",
+              "RelativeToolTip": "Controllers\\Controllers\\OData\\SubmissionsODataController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T12:42:07.378Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "RubricItemsController.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Controllers\\Controllers\\RubricItemsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\Controllers\\RubricItemsController.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Controllers\\Controllers\\RubricItemsController.cs",
+              "RelativeToolTip": "Controllers\\Controllers\\RubricItemsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T12:41:51.685Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "ViolationsController.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Controllers\\Controllers\\ViolationsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\Controllers\\ViolationsController.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Controllers\\Controllers\\ViolationsController.cs",
+              "RelativeToolTip": "Controllers\\Controllers\\ViolationsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAH0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T12:41:32.563Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "ScoresController.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Controllers\\Controllers\\ScoresController.cs",
+              "RelativeDocumentMoniker": "Controllers\\Controllers\\ScoresController.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Controllers\\Controllers\\ScoresController.cs",
+              "RelativeToolTip": "Controllers\\Controllers\\ScoresController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T12:40:18.599Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "AssignmentsController.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Controllers\\Controllers\\AssignmentsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\Controllers\\AssignmentsController.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Controllers\\Controllers\\AssignmentsController.cs",
+              "RelativeToolTip": "Controllers\\Controllers\\AssignmentsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T12:39:55.011Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Services\\IAuthService.cs",
+              "RelativeDocumentMoniker": "Services\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Services\\IAuthService.cs",
+              "RelativeToolTip": "Services\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T12:38:30.499Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "JwtSettings.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Controllers\\Configuration\\JwtSettings.cs",
+              "RelativeDocumentMoniker": "Controllers\\Configuration\\JwtSettings.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Controllers\\Configuration\\JwtSettings.cs",
+              "RelativeToolTip": "Controllers\\Configuration\\JwtSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T12:38:09.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "ExaminerScoreService.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Services\\ExaminerScoreService.cs",
+              "RelativeDocumentMoniker": "Services\\ExaminerScoreService.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Services\\ExaminerScoreService.cs",
+              "RelativeToolTip": "Services\\ExaminerScoreService.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAIBJwGsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T12:31:52.816Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "IViolationService.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Services\\IViolationService.cs",
+              "RelativeDocumentMoniker": "Services\\IViolationService.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Services\\IViolationService.cs",
+              "RelativeToolTip": "Services\\IViolationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T12:32:03.371Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "IExaminerScoreService.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Services\\IExaminerScoreService.cs",
+              "RelativeDocumentMoniker": "Services\\IExaminerScoreService.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Services\\IExaminerScoreService.cs",
+              "RelativeToolTip": "Services\\IExaminerScoreService.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAIBYwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T12:31:32.776Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "IExaminerAssignmentService.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Services\\IExaminerAssignmentService.cs",
+              "RelativeDocumentMoniker": "Services\\IExaminerAssignmentService.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Services\\IExaminerAssignmentService.cs",
+              "RelativeToolTip": "Services\\IExaminerAssignmentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T12:31:05.682Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "IAppRoleService.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Services\\IAppRoleService.cs",
+              "RelativeDocumentMoniker": "Services\\IAppRoleService.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Services\\IAppRoleService.cs",
+              "RelativeToolTip": "Services\\IAppRoleService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T12:30:22.385Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "FinalGradeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Repositories\\FinalGradeRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\FinalGradeRepository.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Repositories\\FinalGradeRepository.cs",
+              "RelativeToolTip": "Repositories\\FinalGradeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T12:29:43.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "ExaminerAssignmentService.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Services\\ExaminerAssignmentService.cs",
+              "RelativeDocumentMoniker": "Services\\ExaminerAssignmentService.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Services\\ExaminerAssignmentService.cs",
+              "RelativeToolTip": "Services\\ExaminerAssignmentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T12:31:23.354Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "IFinalGradeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Repositories\\IFinalGradeRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IFinalGradeRepository.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Repositories\\IFinalGradeRepository.cs",
+              "RelativeToolTip": "Repositories\\IFinalGradeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T12:29:30.487Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "IngestBatchRepository.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Repositories\\IngestBatchRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IngestBatchRepository.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Repositories\\IngestBatchRepository.cs",
+              "RelativeToolTip": "Repositories\\IngestBatchRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T12:29:23.122Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "RubricItemService.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Services\\RubricItemService.cs",
+              "RelativeDocumentMoniker": "Services\\RubricItemService.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Services\\RubricItemService.cs",
+              "RelativeToolTip": "Services\\RubricItemService.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAIBZwFIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T12:30:51.649Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "IRubricItemService.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Services\\IRubricItemService.cs",
+              "RelativeDocumentMoniker": "Services\\IRubricItemService.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Services\\IRubricItemService.cs",
+              "RelativeToolTip": "Services\\IRubricItemService.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAMBUwBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T12:30:40.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "AppRoleService.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Services\\AppRoleService.cs",
+              "RelativeDocumentMoniker": "Services\\AppRoleService.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Services\\AppRoleService.cs",
+              "RelativeToolTip": "Services\\AppRoleService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T12:30:31.401Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "IIngestBatchRepository.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Repositories\\IIngestBatchRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IIngestBatchRepository.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Repositories\\IIngestBatchRepository.cs",
+              "RelativeToolTip": "Repositories\\IIngestBatchRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T12:29:10.587Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "ViolationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Repositories\\ViolationRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\ViolationRepository.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Repositories\\ViolationRepository.cs",
+              "RelativeToolTip": "Repositories\\ViolationRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T12:28:41.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "IViolationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Repositories\\IViolationRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IViolationRepository.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Repositories\\IViolationRepository.cs",
+              "RelativeToolTip": "Repositories\\IViolationRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T12:28:30.501Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "IExaminerScoreRepository.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Repositories\\IExaminerScoreRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IExaminerScoreRepository.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Repositories\\IExaminerScoreRepository.cs",
+              "RelativeToolTip": "Repositories\\IExaminerScoreRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T12:28:13.491Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "ViolationTypeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Repositories\\ViolationTypeRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\ViolationTypeRepository.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Repositories\\ViolationTypeRepository.cs",
+              "RelativeToolTip": "Repositories\\ViolationTypeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T12:28:57.626Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "IViolationTypeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Repositories\\IViolationTypeRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IViolationTypeRepository.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Repositories\\IViolationTypeRepository.cs",
+              "RelativeToolTip": "Repositories\\IViolationTypeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T12:28:48.587Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "RubricItemRepository.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Repositories\\RubricItemRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\RubricItemRepository.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Repositories\\RubricItemRepository.cs",
+              "RelativeToolTip": "Repositories\\RubricItemRepository.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAEBVwEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T12:27:41.366Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "IRubricItemRepository.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Repositories\\IRubricItemRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IRubricItemRepository.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Repositories\\IRubricItemRepository.cs",
+              "RelativeToolTip": "Repositories\\IRubricItemRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T12:27:32.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "ExaminerScoreRepository.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Repositories\\ExaminerScoreRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\ExaminerScoreRepository.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Repositories\\ExaminerScoreRepository.cs",
+              "RelativeToolTip": "Repositories\\ExaminerScoreRepository.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAIBJwEkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T12:28:23.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "AppRoleRepository.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Repositories\\AppRoleRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\AppRoleRepository.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Repositories\\AppRoleRepository.cs",
+              "RelativeToolTip": "Repositories\\AppRoleRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T12:27:25.666Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "ExaminerAssignmentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Repositories\\ExaminerAssignmentRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\ExaminerAssignmentRepository.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Repositories\\ExaminerAssignmentRepository.cs",
+              "RelativeToolTip": "Repositories\\ExaminerAssignmentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T12:28:04.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "IExaminerAssignmentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Repositories\\IExaminerAssignmentRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IExaminerAssignmentRepository.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Repositories\\IExaminerAssignmentRepository.cs",
+              "RelativeToolTip": "Repositories\\IExaminerAssignmentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T12:27:50.625Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "IAppRoleRepository.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Repositories\\IAppRoleRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IAppRoleRepository.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Repositories\\IAppRoleRepository.cs",
+              "RelativeToolTip": "Repositories\\IAppRoleRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T12:27:17.064Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\-286890391\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\-286890391\\IGenericRepository.cs",
+              "ToolTip": "C:\\Users\\LEGION\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\-286890391\\IGenericRepository.cs",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\-286890391\\IGenericRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T12:24:38.857Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\-286890391\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\-286890391\\GenericRepository.cs",
+              "ToolTip": "C:\\Users\\LEGION\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\-286890391\\GenericRepository.cs",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\-286890391\\GenericRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T12:24:38.951Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\-286890391\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\-286890391\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\LEGION\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\-286890391\\IUserRepository.cs",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\-286890391\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T12:24:39.031Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "IStudentService.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Services\\IStudentService.cs",
+              "RelativeDocumentMoniker": "Services\\IStudentService.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Services\\IStudentService.cs",
+              "RelativeToolTip": "Services\\IStudentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T12:23:07.95Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "StudentService.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Services\\StudentService.cs",
+              "RelativeDocumentMoniker": "Services\\StudentService.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Services\\StudentService.cs",
+              "RelativeToolTip": "Services\\StudentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T12:23:19.792Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ISubjectService.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Services\\ISubjectService.cs",
+              "RelativeDocumentMoniker": "Services\\ISubjectService.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Services\\ISubjectService.cs",
+              "RelativeToolTip": "Services\\ISubjectService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T12:23:26.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Controllers\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Controllers\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "Controllers\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAKYAAAAAAAAAAGBiwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T12:22:11.674Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "SemesterService.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Services\\SemesterService.cs",
+              "RelativeDocumentMoniker": "Services\\SemesterService.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Services\\SemesterService.cs",
+              "RelativeToolTip": "Services\\SemesterService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T12:23:53.962Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ISemesterService.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Services\\ISemesterService.cs",
+              "RelativeDocumentMoniker": "Services\\ISemesterService.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Services\\ISemesterService.cs",
+              "RelativeToolTip": "Services\\ISemesterService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T12:23:44.613Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "SubjectService.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Services\\SubjectService.cs",
+              "RelativeDocumentMoniker": "Services\\SubjectService.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Services\\SubjectService.cs",
+              "RelativeToolTip": "Services\\SubjectService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T12:23:37.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Services\\IUserService.cs",
+              "RelativeDocumentMoniker": "Services\\IUserService.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Services\\IUserService.cs",
+              "RelativeToolTip": "Services\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T12:17:19.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Controllers\\Program.cs",
+              "RelativeDocumentMoniker": "Controllers\\Program.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Controllers\\Program.cs",
+              "RelativeToolTip": "Controllers\\Program.cs",
+              "ViewState": "AgIAALcAAAAAAAAAAIBZwLwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T12:04:42.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ExamsController.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Controllers\\Controllers\\ExamsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\Controllers\\ExamsController.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Controllers\\Controllers\\ExamsController.cs",
+              "RelativeToolTip": "Controllers\\Controllers\\ExamsController.cs",
+              "ViewState": "AgIAAKsAAAAAAAAAAIBYwK4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T12:19:18.267Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "SubmissionsController.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Controllers\\Controllers\\SubmissionsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\Controllers\\SubmissionsController.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Controllers\\Controllers\\SubmissionsController.cs",
+              "RelativeToolTip": "Controllers\\Controllers\\SubmissionsController.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAIBZwFwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T12:19:30.613Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "StudentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Repositories\\StudentRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\StudentRepository.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Repositories\\StudentRepository.cs",
+              "RelativeToolTip": "Repositories\\StudentRepository.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T12:16:03.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ISubjectRepository.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Repositories\\ISubjectRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\ISubjectRepository.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Repositories\\ISubjectRepository.cs",
+              "RelativeToolTip": "Repositories\\ISubjectRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T12:16:08.318Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "SubjectRepository.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Repositories\\SubjectRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\SubjectRepository.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Repositories\\SubjectRepository.cs",
+              "RelativeToolTip": "Repositories\\SubjectRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T12:16:17.816Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ISemesterRepository.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Repositories\\ISemesterRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\ISemesterRepository.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Repositories\\ISemesterRepository.cs",
+              "RelativeToolTip": "Repositories\\ISemesterRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T12:16:22.862Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Repositories\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "Repositories\\IUnitOfWork.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Repositories\\IUnitOfWork.cs",
+              "RelativeToolTip": "Repositories\\IUnitOfWork.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAIBYwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T12:16:36.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "SubmissionService.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Services\\SubmissionService.cs",
+              "RelativeDocumentMoniker": "Services\\SubmissionService.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Services\\SubmissionService.cs",
+              "RelativeToolTip": "Services\\SubmissionService.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAMBgwC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T12:18:22.819Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ISubmissionService.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Services\\ISubmissionService.cs",
+              "RelativeDocumentMoniker": "Services\\ISubmissionService.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Services\\ISubmissionService.cs",
+              "RelativeToolTip": "Services\\ISubmissionService.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAEBgwBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T12:18:10.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IExamService.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Services\\IExamService.cs",
+              "RelativeDocumentMoniker": "Services\\IExamService.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Services\\IExamService.cs",
+              "RelativeToolTip": "Services\\IExamService.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAMBUwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T12:17:44.449Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Repositories\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "Repositories\\UnitOfWork.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Repositories\\UnitOfWork.cs",
+              "RelativeToolTip": "Repositories\\UnitOfWork.cs",
+              "ViewState": "AgIAAG0AAAAAAAAAAABRwHAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T12:16:45.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "SemesterRepository.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Repositories\\SemesterRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\SemesterRepository.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Repositories\\SemesterRepository.cs",
+              "RelativeToolTip": "Repositories\\SemesterRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T12:16:31.047Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ISubmissionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Repositories\\ISubmissionRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\ISubmissionRepository.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Repositories\\ISubmissionRepository.cs",
+              "RelativeToolTip": "Repositories\\ISubmissionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T12:15:35.052Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ExamRepository.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Repositories\\ExamRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\ExamRepository.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Repositories\\ExamRepository.cs",
+              "RelativeToolTip": "Repositories\\ExamRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T12:15:28.689Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAE8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T12:15:12.609Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IStudentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Repositories\\IStudentRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IStudentRepository.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Repositories\\IStudentRepository.cs",
+              "RelativeToolTip": "Repositories\\IStudentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T12:15:53.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "SubmissionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Repositories\\SubmissionRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\SubmissionRepository.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Repositories\\SubmissionRepository.cs",
+              "RelativeToolTip": "Repositories\\SubmissionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T12:15:48.515Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IExamRepository.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Repositories\\IExamRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IExamRepository.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Repositories\\IExamRepository.cs",
+              "RelativeToolTip": "Repositories\\IExamRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T12:15:18.696Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Repositories\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\Repositories\\IUserRepository.cs",
+              "RelativeToolTip": "Repositories\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T12:15:03.401Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Prn232GradingContext.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\BusinessObjects\\Prn232GradingContext.cs",
+              "RelativeDocumentMoniker": "BusinessObjects\\Prn232GradingContext.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\BusinessObjects\\Prn232GradingContext.cs",
+              "RelativeToolTip": "BusinessObjects\\Prn232GradingContext.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAgwDoAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T12:05:40.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RubricItem.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\BusinessObjects\\RubricItem.cs",
+              "RelativeDocumentMoniker": "BusinessObjects\\RubricItem.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\PE\\PRN232_ASM\\BusinessObjects\\RubricItem.cs",
+              "RelativeToolTip": "BusinessObjects\\RubricItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T12:05:40.087Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+﻿using Microsoft.AspNetCore.Mvc;
+using BusinessObjects;
+using Services;
+
+namespace Controllers.Controllers;
+
+/// <summary>
+/// Submission management controller
+/// </summary>
+[ApiController]
+[Route("api/[controller]")]
+public class SubmissionsController : ControllerBase
+{
+    private readonly ISubmissionService _submissionService;
+
+    public SubmissionsController(ISubmissionService submissionService)
+    {
+        _submissionService = submissionService;
+    }
+
+    /// <summary>
+    /// Get all submissions
+    /// </summary>
+    [HttpGet]
+    public async Task<ActionResult<IEnumerable<Submission>>> GetAllSubmissions()
+    {
+        var submissions = await _submissionService.GetAllSubmissionsAsync();
+        return Ok(submissions);
+    }
+
+    /// <summary>
+    /// Get submission by ID
+    /// </summary>
+    [HttpGet("{id}")]
+    public async Task<ActionResult<Submission>> GetSubmissionById(long id)
+    {
+        var submission = await _submissionService.GetSubmissionByIdAsync(id);
+        
+        if (submission == null)
+   return NotFound($"Submission with ID '{id}' not found.");
+
+        return Ok(submission);
+    }
+
+    /// <summary>
+    /// Get submission with full details by ID
+    /// </summary>
+[HttpGet("{id}/details")]
+    public async Task<ActionResult<Submission>> GetSubmissionWithDetails(long id)
+    {
+        var submission = await _submissionService.GetSubmissionWithDetailsAsync(id);
+        
+        if (submission == null)
+   return NotFound($"Submission with ID '{id}' not found.");
+
+      return Ok(submission);
+    }
+
+    /// <summary>
+    /// Get submissions by exam
+    /// </summary>
+    [HttpGet("exam/{examId}")]
+    public async Task<ActionResult<IEnumerable<Submission>>> GetSubmissionsByExam(int examId)
+    {
+     var submissions = await _submissionService.GetSubmissionsByExamAsync(examId);
+        return Ok(submissions);
+    }
+
+    /// <summary>
+    /// Get submissions by student
+    /// </summary>
+    [HttpGet("student/{studentId}")]
+    public async Task<ActionResult<IEnumerable<Submission>>> GetSubmissionsByStudent(int studentId)
+    {
+        var submissions = await _submissionService.GetSubmissionsByStudentAsync(studentId);
+    return Ok(submissions);
+    }
+
+    /// <summary>
+    /// Get submission by exam and student
+    /// </summary>
+    [HttpGet("exam/{examId}/student/{studentId}")]
+    public async Task<ActionResult<Submission>> GetSubmissionByExamAndStudent(int examId, int studentId)
+    {
+    var submission = await _submissionService.GetSubmissionByExamAndStudentAsync(examId, studentId);
+        
+     if (submission == null)
+return NotFound($"Submission not found for exam '{examId}' and student '{studentId}'.");
+
+   return Ok(submission);
+    }
+}

@@ -1,0 +1,107 @@
+﻿using BusinessObjects;
+using Repositories;
+
+namespace Services;
+
+/// <summary>
+/// ExaminerScore service implementation for managing examiner scores
+/// </summary>
+public class ExaminerScoreService : IExaminerScoreService
+{
+  private readonly IUnitOfWork _unitOfWork;
+
+    public ExaminerScoreService(IUnitOfWork unitOfWork)
+  {
+ _unitOfWork = unitOfWork;
+    }
+
+public async Task<IEnumerable<ExaminerScore>> GetAllScoresAsync()
+    {
+        return await _unitOfWork.ExaminerScoreRepository.GetAllAsync();
+ }
+
+    public async Task<ExaminerScore?> GetScoreByIdAsync(long examinerScoreId)
+{
+   return await _unitOfWork.ExaminerScoreRepository.GetByIdAsync(examinerScoreId);
+    }
+
+  public async Task<IEnumerable<ExaminerScore>> GetScoresByAssignmentIdAsync(long assignmentId)
+  {
+        return await _unitOfWork.ExaminerScoreRepository.GetByAssignmentIdAsync(assignmentId);
+    }
+
+    public async Task<ExaminerScore> SubmitScoreAsync(long assignmentId, long rubricItemId, decimal score, string? comment = null)
+    {
+     // Validate assignment exists
+  var assignment = await _unitOfWork.ExaminerAssignmentRepository.GetByIdAsync(assignmentId);
+        if (assignment == null)
+   throw new InvalidOperationException($"Assignment with ID '{assignmentId}' not found.");
+
+        // Validate rubric item exists
+     var rubricItem = await _unitOfWork.RubricItemRepository.GetByIdAsync(rubricItemId);
+        if (rubricItem == null)
+            throw new InvalidOperationException($"RubricItem with ID '{rubricItemId}' not found.");
+
+   // Validate score doesn't exceed max point
+     if (score > rubricItem.MaxPoint)
+         throw new InvalidOperationException($"Score {score} exceeds max point {rubricItem.MaxPoint} for this rubric item.");
+
+        // Check if score already exists for this assignment and rubric item
+        var existingScore = await _unitOfWork.ExaminerScoreRepository.GetByAssignmentAndRubricAsync(assignmentId, rubricItemId);
+        if (existingScore != null)
+            throw new InvalidOperationException("Score already exists for this assignment and rubric item. Use update instead.");
+
+var examinerScore = new ExaminerScore
+   {
+       AssignmentId = assignmentId,
+            RubricItemId = rubricItemId,
+    Score = score,
+        Comment = comment,
+ScoredAt = DateTime.UtcNow
+     };
+
+        await _unitOfWork.ExaminerScoreRepository.AddAsync(examinerScore);
+        await _unitOfWork.SaveChangesAsync();
+
+return examinerScore;
+}
+
+    public async Task<ExaminerScore> UpdateScoreAsync(long examinerScoreId, decimal score, string? comment = null)
+    {
+   var examinerScore = await _unitOfWork.ExaminerScoreRepository.GetByIdAsync(examinerScoreId);
+
+  if (examinerScore == null)
+   throw new InvalidOperationException($"ExaminerScore with ID '{examinerScoreId}' not found.");
+
+        // Validate score doesn't exceed max point
+ var rubricItem = await _unitOfWork.RubricItemRepository.GetByIdAsync(examinerScore.RubricItemId);
+        if (rubricItem != null && score > rubricItem.MaxPoint)
+            throw new InvalidOperationException($"Score {score} exceeds max point {rubricItem.MaxPoint} for this rubric item.");
+
+        examinerScore.Score = score;
+        examinerScore.Comment = comment;
+        examinerScore.ScoredAt = DateTime.UtcNow;
+
+        _unitOfWork.ExaminerScoreRepository.Update(examinerScore);
+        await _unitOfWork.SaveChangesAsync();
+
+    return examinerScore;
+    }
+
+    public async Task<bool> DeleteScoreAsync(long examinerScoreId)
+    {
+        var examinerScore = await _unitOfWork.ExaminerScoreRepository.GetByIdAsync(examinerScoreId);
+
+   if (examinerScore == null)
+        return false;
+
+  _unitOfWork.ExaminerScoreRepository.Delete(examinerScore);
+  return await _unitOfWork.SaveChangesAsync() > 0;
+    }
+
+    public async Task<decimal> CalculateTotalScoreForAssignmentAsync(long assignmentId)
+    {
+  var scores = await _unitOfWork.ExaminerScoreRepository.GetByAssignmentIdAsync(assignmentId);
+        return scores.Sum(s => s.Score);
+    }
+}
